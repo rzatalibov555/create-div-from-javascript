@@ -1,0 +1,56 @@
+
+#board{
+    width: 100%;
+    min-height: 50px;
+    /* background: red; */
+    float: left;
+    margin-top: 5px;
+}
+
+.blah{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    float: left;
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+}
+
+.div_border{
+    animation-name: border_light;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes border_light {
+    from{
+        border: 5px solid orange;
+    }
+
+    to{
+        border: 5px solid yellow;
+    }
+}
+
+.none{
+    display: none;
+}
+
+.blah:nth-child(2n+0) {
+    background: red;
+  }
+.blah:nth-child(2n+0) {
+    background: red;
+  }
+
+.blah:nth-child(3n+0) {
+    background: green;
+  }
+
+
+  /* https://www.myinstants.com/en/index/az/ */
